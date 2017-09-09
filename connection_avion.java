@@ -24,7 +24,9 @@ public class connection_avion {
           
           try{
               JOptionPane.showMessageDialog(null, "L'avion est connectée à un autre controleur. Vous êtes en état d'attente");
-              return;
+              return; // 'return'; parce que j'ai utulisé interface grapfique. et ici le wait m'a bloqué le jrame. j'aurai du
+                          //utilisé le 'wait()'
+                          
            }catch (Exception e){}
           }
       }
